@@ -1,0 +1,57 @@
+Exercise 1
+//This pseudocode is intended to compute the number
+//of miles per gallon you get with your automobile
+
+start
+define milesDriven
+define gallonsofgasUsed
+define milesPerGallon
+
+	input milesDriven
+	input gallonsofgasUsed
+	milesPerGallon = milesDriven / gallonsofgasUsed
+	
+	print "Your MPG is : " + milesPerGallon
+	
+end
+
+Exercise 2
+//This pseudocode is intended to describe
+//computing the daily cost of your rent
+//in a 30-day month
+
+start
+define monthlyRent
+define dailyRent
+
+	input monthlyRent
+	dailyRent = monthlyRent / 30
+	
+	print "Your daily cost of rent is : " + dailyRent
+	
+end
+	
+Exercise 3
+//This pseudocode shows a user's monthly pay and bills
+//and will output remaining discretionary amount
+
+start
+define monthlyPay
+define rent
+define utilities
+define grocery
+define billsTotal
+define funMoney		//discretionary funds
+
+	input monthlyPay = "Enter your monthly pay."
+	input rent = "Enter your cost of rent."
+	input utilities = "Enter your cost of utilities."
+	input grocery = "Enter your cost of groceries."
+	billsTotal = rent + utilities + grocery
+	funMoney = monthlyPay - billsTotal
+	
+	print "Your monthly pay is : " + monthlyPay
+	print "Your total amount of bills is : " + billsTotal
+	print "Your remaining discretionary money is : " + funMoney
+	
+end

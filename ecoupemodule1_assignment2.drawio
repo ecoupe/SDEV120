@@ -1,0 +1,142 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="A1aD2JHxZ7_xf_f0XBGt">
+    <mxGraphModel dx="2223" dy="2185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-1" value="Excercise 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-240" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-2" target="1EJutGyU-tejOzZ3bYqt-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-2" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-3" target="1EJutGyU-tejOzZ3bYqt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-3" value="input&lt;div&gt;milesDriven&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-5" target="1EJutGyU-tejOzZ3bYqt-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-5" value="input&lt;div&gt;gallonsofgasUsed&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-7" target="1EJutGyU-tejOzZ3bYqt-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-7" value="milesPerGallon=&lt;div&gt;milesDriven / gallonsofgasUsed&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="290" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-9" target="1EJutGyU-tejOzZ3bYqt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-9" value="output&lt;div&gt;&quot;Your MPG is : &quot;&lt;/div&gt;&lt;div&gt;+&lt;/div&gt;&lt;div&gt;milesPerGallon&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-11" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="470" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-14" value="Excercise 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5" y="-2" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-15" target="1EJutGyU-tejOzZ3bYqt-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-15" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-16" target="1EJutGyU-tejOzZ3bYqt-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-16" value="input&amp;nbsp;&lt;div&gt;monthlyRent&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-18" target="1EJutGyU-tejOzZ3bYqt-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-18" value="dailyRent =&amp;nbsp;&lt;div&gt;monthlyRent&amp;nbsp; / 30&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-20" target="1EJutGyU-tejOzZ3bYqt-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-20" value="output&lt;div&gt;&quot;Your daily cost of rent is : &quot; +&lt;/div&gt;&lt;div&gt;dailyRent&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-22" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-24" value="Excercise 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-2" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-25" target="1EJutGyU-tejOzZ3bYqt-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-25" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-26" target="1EJutGyU-tejOzZ3bYqt-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-26" value="input monthlyPay=&lt;div&gt;&quot;Enter your monthly rent.&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="120" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-30" target="1EJutGyU-tejOzZ3bYqt-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-30" value="input rent =&amp;nbsp;&lt;div&gt;&quot;Enter your cost of rent.&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="210" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-32" target="1EJutGyU-tejOzZ3bYqt-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-32" value="input utilities =&amp;nbsp;&lt;div&gt;&quot;Enter your cost of utilities.&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="310" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-34" target="1EJutGyU-tejOzZ3bYqt-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-34" value="input grocery =&lt;div&gt;&quot;Enter your cost of&amp;nbsp;&lt;/div&gt;&lt;div&gt;groceries.&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-36" target="1EJutGyU-tejOzZ3bYqt-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-36" value="billsTotal =&lt;div&gt;rent + utilities + grocery&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="490" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-38" target="1EJutGyU-tejOzZ3bYqt-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-38" value="funMoney =&amp;nbsp;&lt;div&gt;monthlyPay - billsTotal&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="580" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-40" target="1EJutGyU-tejOzZ3bYqt-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-40" value="print &quot;Your monthly pay is: &quot;&lt;div&gt;+ monthlyPay&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="670" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-42" target="1EJutGyU-tejOzZ3bYqt-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-42" value="print &quot;Your total amount of&amp;nbsp;&lt;div&gt;bills is : &quot;&lt;div&gt;+ billsTotal&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="760" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1EJutGyU-tejOzZ3bYqt-44" target="1EJutGyU-tejOzZ3bYqt-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-44" value="print &quot;Your remaining&lt;div&gt;discretionary money is :&quot;&lt;/div&gt;&lt;div&gt;+ funMoney&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="850" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1EJutGyU-tejOzZ3bYqt-46" value="end" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="940" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
