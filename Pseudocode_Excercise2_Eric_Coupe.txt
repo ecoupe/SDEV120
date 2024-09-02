@@ -1,0 +1,20 @@
+Excercise 2
+
+start
+
+	define accountBalance = 0
+	define overDrawnOccurance = 0
+	define overDrawnFee = (accountBalance * 0.01) - (overDrawnOccurance * 5)
+	define finalBalance = accountBalance - overDrawnFee
+	
+	accountBalance = input "Please enter your account balance "
+	overDrawnOccurance = input "Please enter number of times account was overdrawn "
+	
+	process overDrawnFee
+	process finalBalance
+	
+	print "Your fee for overdrawing your account is " overDrawnFee
+	print "Your new account balance is " finalBalance
+	print "Thank you for using this program."
+	
+stop

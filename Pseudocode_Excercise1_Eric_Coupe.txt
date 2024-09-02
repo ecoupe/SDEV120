@@ -1,0 +1,24 @@
+Excercise 1
+
+start
+
+	input modelName = "Please enter the model name of your refrigerator."
+	input interiorHeight = "Please enter the height of the interior of your refrigerator."
+	input interiorWidth = "Please enter the width of the interior of your refrigerator."
+	input interiorDepth = "Please enter the depth of the interior of your refrigerator."
+	print "You entered " modelName, interiorHeight, interiorWidth, interiorDepth "is this correct?"
+	input yes or no
+	
+	if yes
+		calculate refrigCapacity = interiorHeight * interiorWidth * interiorDepth / 1728
+	else restart input
+	return
+	
+	print "The capacity of your " modelName "is " refrigCapacity
+	
+stop
+
+
+
+	
+	
