@@ -1,0 +1,77 @@
+start
+
+DEFINE function retirementPlanningTool():
+	
+	#this function will calculate savings achieved during years before retirement#
+	DEFINE function savingsCalculation(yearsUntilRetirement, savingsUntilRetirement, simpleInterest=0.03):
+		preRetirementSavings = 0
+		
+		output = "Savings achieved each year until retirement: "
+		output = "{'Year'}{'Total Balance'}" #format in actual code for better display
+		
+		FOR year in range(yearsUntilRetirement):
+			preRetirementSavings += savingsUntilRetirement
+			preRetirementSavings += preRetirementSavings * simpleInterest
+			output = "{year} ${preRetirementSavings}" #format in actual code for better display
+			
+		totalSavingsNeeded = retirementSpending * maxRetirementYears
+		output = ("To spend ${retirementSpending} for {maxRetirementYears}, you must save ${totalSavingsNeeded}")	
+			
+		RETURN preRetirementSavings
+	
+	#this function creates an array for later calls to then display a schedule of spending during retirement#
+	DEFINE function scheduleRetirement(initialSavings, retirementSpending=60000, simpleInterest=0.03, maxRetirementYears = 30):
+		year = 0
+		balance = initialSavings
+		schedule = [] #used python nomencalature but create an array
+		
+		WHILE year < maxRetirementYears AND balance > 0:	#this blocks the schedule from going past 30 years
+			balance += balance * simpleInterest
+			balance -= retirementSpending
+			
+			IF balance < 0:
+				balance = 0 #this avoids negative balances
+				
+			append the array 'schedule' with ["Year": year + 1, "Starting Balance": balance]
+			year += 1
+		
+		RETURN schedule
+	
+	#this will be an open loop to put everything together. it will take input from the user then display the account balance
+	#for each year of retirement#
+	WHILE True
+		try:
+			yearsUntilRetirement = input "Enter the number of years until your retirement: " #store as integer
+			savingsUntilRetirement = input "Enter the amount you will save each year: " #store as float
+			
+			IF yearsUntilRetirement <= 0 OR savingsUntilRetirement <= 0:
+				output = "Please enter positive values." #this is a check to make sure user inputs are valid
+				CONTINUE
+				
+			totalSavingsAtRetirement = savingsCalculation(yearsUntilRetirement, savingsUntilRetirement)
+			
+			output = "Account balance during retirement (30 years or until balance reaches 0): "
+			schedule = scheduleRetirement(totalSavingsAtRetirement)
+			output = "{'Year'}{'Total Balance'}" #format in actual code for better display
+			
+			FOR entry in schedule:
+				output = "{entry['Year']}{entry['Total Balance']}"
+		
+			savingsDifference = totalSavingsNeeded - preRetirementSavings	
+			output = ("To reach this savings amount you must increase your annual savings to ${savingsDifference}")
+			
+			changeInput = input "Would you like to input new values? (yes/no): "
+			IF changeInput != 'yes':
+				output = "Thank you for using Skulling Financial Services' Retirement Planning Tool!"
+				break
+		value error catch
+			output = "Invalid input, please try again."
+
+execute retirementPlanningTool()
+
+end
+			
+	
+	
+		
+	
