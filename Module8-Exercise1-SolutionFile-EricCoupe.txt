@@ -1,0 +1,49 @@
+Testing scenario:
+program executes
+"Geralds Businesses.csv", "Geraldines Businesses.csv" and "DoubleGBusiness.csv" are opened
+
+moves to function readgFile()
+this is the first loop so bothAtEnd will still be "N"
+the first record is input
+
+moves to function readgdineFile()
+this is the first loop so bothAtEnd will still be "N"
+the first record is input
+
+moves to function mergeRecords ()
+the first records are not equal
+the customer number 1598 in geraldines businesses is less than geralds of 4891
+this means the record from geraldines businesses will be output to DoubleGBusiness
+
+the next record in geraldines businesses is input
+it is 2578 and so also less than geralds so it will be output next to DoubleGBusiness
+
+the next record in geraldines businesses is input
+geralds of 4891 is less than 6548 in geraldines so it is output next to DoubleGBusiness
+
+the next record in geralds businesses is input
+it is 5148 so less than geraldines so it will be output next to DoubleGBusiness
+
+the next record in geralds businesses is input
+geraldines customer number 6548 is less than geralds 8949 so it will be the next output to DoubleGBusiness
+
+the next record in geraldines is input
+geralds customer number 8949 is less than geraldines 9853 so it will be the next output to DoubleGBusiness
+
+the next record in geralds is input
+gerlds customer number 9841 is less than geraldines 9853 so it will be the next output to DoubleGBusiness
+
+the next record in geralds is attempted
+it is eof so variable gcustomerNumber changes to "END_NAME"
+
+the next two records are input then output to DoubleGBusiness
+
+geraldines businesses is now eof so variable dinecustomerNumber is changed to "END_NAME"
+
+both gcustomerNumber AND dinecustomerNumber are "END_NAME" so the variable bothAtEnd changes to "Y"
+
+the program moves to the function finishUp ()
+all files are closed
+
+the program ends 
+

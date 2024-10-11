@@ -1,0 +1,63 @@
+start
+
+setupMerge ()
+	open gFile "Geralds Businesses.csv"
+	open gdineFile "Geralidne Businesses.csv"
+	open mergeFile "DoubleGBusiness.csv"
+	readgFile ()
+	readgdineFile ()
+	bothAtEnd = "N"	#this initializes a flag for when both files at eof
+	
+	while bothAtEnd != "Y"
+		mergeRecords ()
+	endwhile
+	
+	finishup ()
+return
+
+readgFile ()
+	if not eof(gFile) then
+		input gcustomerNumber, glastName, gaddress, gpropertySize
+	else
+		gcustomerNumber = END_NAME
+	endif
+return
+
+readgdineFile ()
+	if not eof(gdineFile) then
+		input dinecustomerNumber, dinelastName, dineaddress, dinepropertySize
+	else
+		dinecustomerNumber = END_NAME
+	endif
+return
+
+checkEoF ()
+	if gcustomerNumber = END_NAME AND dinecustomerNumber = END_NAME then
+		bothAtEnd = "Y"
+	endif
+return
+
+mergeRecords ()
+	if gcustomerNumber = dinecustomerNumber then	#this checks for duplicates
+		output gcustomerNumber, glastName, gaddress, gpropertySize to mergeFile
+		readgFile ()
+		readgdineFile ()
+	elseif gcustomerNumber < dinecustomerNumber then
+		output gcustomerNumber, glastName, gaddress, gpropertySize to mergeFile
+		readgFile ()
+	else
+		output dinecustomerNumber, dinelastName, dineaddress, dinepropertySize to mergeFile
+		readgdineFile ()
+	endif
+	
+	checkEoF ()
+return
+
+finishup ()
+	close gFile
+	close gdineFile
+	close mergeFile
+return
+
+end
+
